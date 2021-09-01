@@ -1,0 +1,62 @@
+
+body{
+    /* background-color: rgb(26, 21, 21); */
+}
+
+h1{
+    text-align: center;
+    color: rgb(116, 15, 15);
+    font-family: monospace;
+    margin-top: 0.5rem;
+}
+
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+    font-weight: bolder;
+}
+
+.card{
+    border: 2px solid slategrey;
+    border-radius: 15%;
+}
+
+.card > img{
+    border-top-left-radius: 15%; 
+    border-top-right-radius: 15%;
+}
+
+
+.col{
+    margin-bottom: 1.5rem;
+}
+
+
+.nav-item{
+    font-weight: bold;
+}
+
+
+button{
+    margin-top: 1.5rem;
+}
+
+form{
+    background-color:rgb(207, 241, 252) ;
+    border:rgb(53, 132, 148) 1px solid;
+}
+
+
+form label {
+    font-weight: bold;
+}
+
+footer{
+    margin:1.5rem 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
