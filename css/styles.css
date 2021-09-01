@@ -1,17 +1,40 @@
 
+body{
+    background-color:rgb(75, 36, 43);
+    
+}
+
 h1{
     text-align: center;
-    color: rgb(116, 15, 15);
+    color: yellow;
     font-family: monospace;
     margin-top: 0.5rem;
 }
-
-
 h4{
     font-family: 'Times New Roman', Times, serif;
-    color:brown;
+    color: yellow;
     font-weight: bolder;
 }
+
+h5{
+    margin-bottom: 15px;
+    color: thistle;
+}
+
+p{
+    line-height: 90%;
+    color: thistle;
+}
+
+
+.menu-bar{
+    background-color:rgb(2, 31, 59)!important;
+}
+
+a {
+    color: thistle!important;
+}
+
 
 .card{
     border: 2px solid slategrey;
@@ -39,10 +62,9 @@ button{
 }
 
 form{
-    background-color:rgb(207, 241, 252) ;
-    border:rgb(53, 132, 148) 1px solid;
+    background-color:rgb(223, 198, 216) ;
+    border:rgb(107, 48, 97) 1px solid;
 }
-
 
 form label {
     font-weight: bold;
@@ -52,6 +74,7 @@ footer{
     margin:1.5rem 0;
     font-style: italic;
     font-weight: bold;
+    color:thistle
 }
 
 
