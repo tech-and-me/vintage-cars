@@ -64,10 +64,12 @@ button{
 form{
     background-color:rgb(223, 198, 216) ;
     border:rgb(107, 48, 97) 1px solid;
+    
 }
 
 form label {
     font-weight: bold;
+
 }
 
 footer{
@@ -77,5 +79,19 @@ footer{
     color:thistle
 }
 
+
+
+.form-content{
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.contact-form {
+    border: rgb(160, 51, 31) 2px solid;
+    border-radius: 5%;
+    width: 70%;
+}
 
 
