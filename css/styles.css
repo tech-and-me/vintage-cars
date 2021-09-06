@@ -8,7 +8,8 @@ h1{
     text-align: center;
     color: yellow;
     font-family: monospace;
-    margin-top: 0.5rem;
+    margin-top: 5.5rem;
+    text-shadow: 2px 2px 8px rgb(230, 222, 222);
 }
 h4{
     font-family: 'Times New Roman', Times, serif;
@@ -21,10 +22,23 @@ h5{
     color: thistle;
 }
 
+section{
+    margin-top: 5px;
+}
+
+
+
 #contact > p{
     line-height: 90%;
     color: thistle;
 }
+
+
+#navbarNavAltMarkup{
+    position: relative !important;
+    float: right !important;
+}
+
 
 
 .menu-bar{
@@ -37,8 +51,9 @@ a {
 
 
 .card{
-    border: 2px solid slategrey;
+    border: 2px solid rgb(53, 11, 16);
     border-radius: 15%;
+    box-shadow: 7px 7px 4px 0.05px rgb(19, 14, 14);
 }
 
 .card > img{
@@ -46,6 +61,15 @@ a {
     border-top-right-radius: 15%;
 }
 
+.card-item:hover{
+    opacity: 0.8;
+}
+
+
+.card-container{
+    position: relative;
+    align-content: center;
+}
 
 .col{
     margin-bottom: 1.5rem;
@@ -54,23 +78,51 @@ a {
 
 .nav-item{
     font-weight: bold;
-}
+  }
 
-
-button{
-    margin-top: 1.5rem;
-}
-
-form{
-    background-color:rgb(223, 198, 216) ;
-    border:rgb(107, 48, 97) 1px solid;
+.navbar-nav > a:hover{
+    border-bottom: 2px white solid;
     
 }
+
+
+#submit-button{
+    margin-top:1.5rem auto !important;   
+}
+
+/* form{
+    background-color:rgb(223, 198, 216) ;
+    border:rgb(107, 48, 97) 1px solid;
+    box-shadow: 10px 10px 8px 0.3px rgb(19, 14, 14);
+    
+} */
 
 form label {
     font-weight: bold;
 
 }
+
+
+.form-content{
+    width: 100%;
+    margin: 5px auto;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top: 3rem;
+    
+}
+
+.contact-form {
+    width: 70%;
+    margin: 5px auto;
+    border: rgb(160, 51, 31) 2px solid;
+    border-radius: 10%;
+    background-color:rgb(223, 198, 216) ;
+    border:rgb(107, 48, 97) 1px solid;
+    box-shadow: 10px 10px 8px 0.3px rgb(19, 14, 14);
+}
+
+
 
 footer{
     margin:1.5rem 0;
@@ -78,24 +130,3 @@ footer{
     font-weight: bold;
     color:thistle
 }
-
-
-
-.form-content{
-    padding-left: 5%;
-    padding-right:5%;
-    padding-top: 1rem;
-    width: 100%;
-}
-
-.contact-form {
-    border: rgb(160, 51, 31) 2px solid;
-    border-radius: 5%;
-    width: 70%;
-}
-
-section{
-    margin-top: 5px;
-}
-
-
